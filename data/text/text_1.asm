@@ -4,13 +4,13 @@ _CardKeySuccessText1::
 
 _CardKeySuccessText2::
 	text_start
-	line "The CARD KEY"
-	cont "opened the door!"
+	line "La KARTAŜLOSILO"
+	cont "apertas la pordo!"
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "Diablaĵo! Ĝi bezonas"
+	line "KARTAŜLOSILOn!"
 	done
 
 _TrainerNameText::
@@ -19,131 +19,131 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Not even a nibble!"
+	text "Eĉ ne mordo!"
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Ŝajme, ĉi tie"
+	line "estas nenio."
 	prompt
 
 _ItsABiteText::
-	text "Oh!"
-	line "It's a bite!"
+	text "O!"
+	line "Estas mordo!"
 	prompt
 
 _ExclamationText::
 	text "!"
-	done
+	done 
 
 _GroundRoseText::
-	text "Ground rose up"
-	line "somewhere!"
+	text "Grundo supre"
+	line "leviĝis ie!"
 	done
 
 _BoulderText::
-	text "This requires"
-	line "STRENGTH to move!"
+	text "Ĉi tiu bezonas"
+	line "FORTECOn por movi!"
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
+	text "Ĉiom de objektobezonoj"
+	line "estos plenumitaj!"
 	cont "#MON MART"
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Sanigi viajn #MONojn!"
+	line "#MONa CENTRO"
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> trovis"
 	line "@"
 	text_ram wcf4b
 	text "!@"
 	text_end
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "Ne estas plu loko"
+	line "por objektoj!"
 	done
 
 _OaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	text "Saluton! Vi memoras min?"
+	line "Mi estas HELPISTO de"
+	cont "INST.KVERK!"
 
-	para "If you caught @"
+	para "Se vi kaptas @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds of #MON,"
-	cont "I'm supposed to"
-	cont "give you an"
+	line "specioj de #MONoj,"
+	cont "Mi devas "
+	cont "doni al vi"
 	cont "@"
 	text_ram wOaksAideRewardItemName
-	text "!"
+	text "n!"
 
-	para "So, <PLAYER>! Have"
-	line "you caught at"
-	cont "least @"
+	para "Do, <PLAYER>! Vi"
+	line "estis kaptita"
+	cont "ĝis @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds of"
-	cont "#MON?"
+	text "specioj de "
+	cont "#MONoj?"
 	done
 
 _OaksAideUhOhText::
-	text "Let's see..."
-	line "Uh-oh! You have"
-	cont "caught only @"
+	text "Vidus..."
+	line "o-o! Vi havas"
+	cont "nur kaptita @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text_start
-	cont "kinds of #MON!"
+	cont "specioj de #MONoj!"
 
-	para "You need @"
+	para "Vi bezonas @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds"
-	line "if you want the"
+	text " specioj"
+	line "se vi volas lan"
 	cont "@"
 	text_ram wOaksAideRewardItemName
-	text "."
+	text "n."
 	done
 
 _OaksAideComeBackText::
-	text "Oh. I see."
+	text "O. Mi vidas."
 
-	para "When you get @"
+	para "Kiam vi akira @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds, come back"
-	cont "for @"
+	line "specioj, revenu"
+	cont "por @"
 	text_ram wOaksAideRewardItemName
-	text "."
+	text "n."
 	done
 
 _OaksAideHereYouGoText::
-	text "Great! You have"
-	line "caught @"
+	text "Bonege! Vi havas"
+	line "kaptita @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
-	text " kinds "
-	cont "of #MON!"
-	cont "Congratulations!"
+	text " specioj "
+	cont "de #MONoj!"
+	cont "Gratulon!"
 
-	para "Here you go!"
+	para "Ĉi vi havas!"
 	prompt
 
 _OaksAideGotItemText::
-	text "<PLAYER> got the"
+	text "<PLAYER> akiri la"
 	line "@"
 	text_ram wOaksAideRewardItemName
-	text "!@"
+	text "n!@"
 	text_end
 
 _OaksAideNoRoomText::
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for the"
+	text "O! Mi vidas ke"
+	line "vi ne havas nenian"
+	cont "lokon por la"
 	cont "@"
 	text_ram wOaksAideRewardItemName
-	text "."
+	text "n."
 	done
