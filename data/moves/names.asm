@@ -124,7 +124,7 @@ MoveNames::
 	db "FUMNEBULO@"    ; "SMOG"
 	db "ŜLIMO@"        ; "SLUDGE"
 	db "OSTA KLUBO@"   ; "BONE CLUB"
-	db "FAJRA'KSPLODO@"; "FIRE BLAST"
+	db "FAJRAKSPLODO@" ; "FIRE BLAST"
 	db "AKVA FALO@"    ; "WATERFALL"
 	db "KRAMPO@"       ; "CLAMP"
 	db "AERŜTONOJ@"    ; "SWIFT"
